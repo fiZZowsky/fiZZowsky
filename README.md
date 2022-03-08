@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @fiZZowsky
 - 👀 I’m interested in creating games and applications.
-- 🌱 I’m currently learning C/C++. In the future also js.
+- 🌱 I’m currently learning C/C++ and java.
 <!---💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
