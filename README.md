@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @fiZZowsky
-- 👀 I’m interested in creating games and applications.
+- 👀 I’m interested in creating applications, software and games.
 - 🌱 I’m currently learning C/C++ and java.
 <!---💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
