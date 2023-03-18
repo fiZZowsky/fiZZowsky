@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @fiZZowsky
-- 👀 I’m interested in creating applications, software and games.
-- 🌱 I’m currently learning C/C++, Java, HTML+CSS, JS.
+- 👀 I’m interested in creating applications and software.
+- 🌱 I’m currently learning C/C++, Java, HTML+CSS, .NET.
 
 Contact: piotrekr852@gmail.com
 <!---💞️ I’m looking to collaborate on ...
