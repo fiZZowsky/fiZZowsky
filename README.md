@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @fiZZowsky
 - 👀 I’m interested in creating applications and software.
-- 🌱 C#, .NET, HTML+CSS, SQL.
+- 🌱 C#, .NET, HTML+CSS, SQL, Java.
 
 Contact: piotrekr852@gmail.com
 <!---💞️ I’m looking to collaborate on ...
