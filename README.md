@@ -15,9 +15,9 @@
       <img src="https://raw.githubusercontent.com/fiZZowsky/fiZZowsky/800b54b6e23912ae877d379f77e596e9ff9c40ef/most-used-languages.svg" alt="Middle Right" width="100%" />
     </td>
   </tr>
-  <!--<tr>
+  <tr>
     <td>
-      <img src="" alt="Bottom Right" width="100%" />
+      <img src="https://raw.githubusercontent.com/fiZZowsky/fiZZowsky/c9edde169fc8ecf387ea871778307fc2bf3c8375/mastered-technologies.svg" alt="Bottom Right" width="100%" />
     </td>
-  </tr> -->
+  </tr>
 </table>
