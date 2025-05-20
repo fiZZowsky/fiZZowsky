@@ -48,12 +48,13 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_limit: 7
           plugin_languages_categories: data, programming
+          plugin_languages_threshold: 2
       - name: 🦑 Coding habits and recent activity
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: activity.svg
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_habits: true
           plugin_habits_facts: no
@@ -64,7 +65,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: achievements.svg
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: compact
