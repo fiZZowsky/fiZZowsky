@@ -48,7 +48,7 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_limit: 7
           plugin_languages_categories: data, programming
-          plugin_languages_threshold: 2
+          plugin_languages_threshold: 2%
       - name: 🦑 Coding habits and recent activity
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
