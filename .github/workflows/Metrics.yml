@@ -60,13 +60,14 @@ jobs:
           plugin_habits_facts: no
           plugin_habits_charts: yes
           config_timezone: Europe/Warsaw
-      - name: 🦑 Achievements
+      - name: 🦑 Mastered technologies
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
-          filename: achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          filename: mastered-technologies.svg
+          token: NOT_NEEDED
           base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_fortune: yes
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 0
+          
