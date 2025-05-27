@@ -1,7 +1,7 @@
 name: Metrics
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "10 0 * * *"}]
   # (optional) Run workflow manually
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
@@ -62,6 +62,8 @@ jobs:
           plugin_habits: true
           plugin_habits_facts: no
           plugin_habits_charts: yes
+          plugin_habits_from: 1000
+          plugin_habits_days: 30
           config_timezone: Europe/Warsaw
       - name: 🦑 Mastered technologies
         if: ${{ success() || failure() }}
