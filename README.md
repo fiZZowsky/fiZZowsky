@@ -2,7 +2,7 @@
   <tr>
     <td>
       <img
-        src="https://raw.githubusercontent.com/fiZZowsky/fiZZowsky/master/github-metrics.svg"
+        src="https://raw.githubusercontent.com/fiZZowsky/fiZZowsky/master/general.svg"
         alt="GitHub Metrics"
         width="100%"
         style="pointer-events: none; cursor: default;"
