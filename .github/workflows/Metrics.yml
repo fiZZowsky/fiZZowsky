@@ -17,9 +17,6 @@ jobs:
       contents: write
 
     steps:
-      - name: 🛎️ Checkout repository
-        uses: actions/checkout@v3
-
       - name: 🦑 General
         uses: lowlighter/metrics@latest
         with:
