@@ -1,48 +1,47 @@
 name: Metrics
-
 on:
-  schedule:
-    - cron: '0 0 * * *'
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
   workflow_dispatch:
-  push:
-    branches:
-      - master
-      - main
-
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: development
+    environment: 
+      name: development
     permissions:
       contents: write
-
     steps:
+
       - name: 🦑 General
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: general.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: header
           base_indepth: yes
           config_order: base.header
-          output_action: repo
-
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
       - name: 🦑 Contributions calendar
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: iso-calendar.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           base_indepth: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          output_action: repo
-
       - name: 🦑 Most used languages
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: most-used-languages.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           base_indepth: yes
           plugin_languages: yes
@@ -52,29 +51,26 @@ jobs:
           plugin_languages_limit: 7
           plugin_languages_categories: data, programming
           plugin_languages_threshold: 2%
-          output_action: repo
-
       - name: 🦑 Coding habits and recent activity
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: activity.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           base_indepth: yes
           plugin_habits: true
           plugin_habits_facts: no
           plugin_habits_charts: yes
           config_timezone: Europe/Warsaw
-          output_action: repo
-
       - name: 🦑 Mastered technologies
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: mastered-technologies.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: NOT_NEEDED
           base: ""
           base_indepth: yes
           plugin_topics: yes
           plugin_topics_mode: icons
           plugin_topics_limit: 0
-          output_action: repo
