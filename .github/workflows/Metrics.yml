@@ -16,7 +16,7 @@ jobs:
     steps:
 
       - name: 🦑 General
-        if: ${{ success() || failure() }}
+        if: ${{ always() }}
         uses: lowlighter/metrics@latest
         with:
           filename: general.svg
@@ -27,7 +27,7 @@ jobs:
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
       - name: 🦑 Contributions calendar
-        if: ${{ success() || failure() }}
+        if: ${{ always() }}
         uses: lowlighter/metrics@latest
         with:
           filename: iso-calendar.svg
@@ -37,7 +37,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
       - name: 🦑 Most used languages
-        if: ${{ success() || failure() }}
+        if: ${{ always() }}
         uses: lowlighter/metrics@latest
         with:
           filename: most-used-languages.svg
@@ -52,7 +52,7 @@ jobs:
           plugin_languages_categories: data, programming
           plugin_languages_threshold: 2%
       - name: 🦑 Coding habits and recent activity
-        if: ${{ success() || failure() }}
+        if: ${{ always() }}
         uses: lowlighter/metrics@latest
         with:
           filename: activity.svg
@@ -66,7 +66,7 @@ jobs:
           plugin_habits_days: 30
           config_timezone: Europe/Warsaw
       - name: 🦑 Mastered technologies
-        if: ${{ success() || failure() }}
+        if: ${{ always() }}
         uses: lowlighter/metrics@latest
         with:
           filename: mastered-technologies.svg
