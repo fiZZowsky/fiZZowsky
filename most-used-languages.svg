@@ -21,9 +21,9 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="265.5098639986956" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="265.5098639986956" y="0" width="115.45233888429284" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="380.96220288298844" y="0" width="79.03779711701154" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="265.49583966210275" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="265.49583966210275" y="0" width="115.30986729456654" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="380.80570695666927" y="0" width="79.19429304333069" height="8" fill="#178600"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -46,7 +46,7 @@
                                 C#
                             </div>
                             <small>
-                                <div>17.18%</div>
+                                <div>17.22%</div>
                             </small>
                         </div>
                     </section>
@@ -59,7 +59,7 @@
                                 C++
                             </div>
                             <small>
-                                <div>25.1%</div>
+                                <div>25.07%</div>
                             </small>
                         </div>
                     </section>
