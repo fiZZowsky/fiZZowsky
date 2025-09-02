@@ -21,11 +21,11 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="166.61195843215523" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="166.61195843215523" y="0" width="136.52677988780766" height="8" fill="#178600"/>
-                    <rect mask="url(#languages-bar)" x="303.1387383199629" y="0" width="100.48806444919846" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="403.6268027691613" y="0" width="43.263310745249925" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="446.89011351441127" y="0" width="13.109886485588747" height="8" fill="#9400ff"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="166.60276132427268" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="166.60276132427268" y="0" width="136.5446358576341" height="8" fill="#178600"/>
+                    <rect mask="url(#languages-bar)" x="303.1473971819068" y="0" width="100.48251743097514" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="403.6299146128819" y="0" width="43.26092257731753" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="446.8908371901994" y="0" width="13.109162809800583" height="8" fill="#9400ff"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -48,7 +48,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>21.85%</div>
+                                <div>21.84%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -83,7 +83,7 @@
                                 Java
                             </div>
                             <small>
-                                <div>9.41%</div>
+                                <div>9.4%</div>
                             </small>
                         </div>
                     </section>
