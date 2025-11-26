@@ -38,7 +38,7 @@
   <tr>
     <td>
       <img
-        src="https://raw.githubusercontent.com/fiZZowsky/fiZZowsky/master/mastered-technologies.svg"
+        src="https://raw.githubusercontent.com/fiZZowsky/fiZZowsky/refs/heads/main/mastered-technologies.svg"
         alt="Mastered Technologies"
         width="100%"
         style="pointer-events: none; cursor: default;"
