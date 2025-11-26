@@ -62,7 +62,7 @@ jobs:
           plugin_habits: true
           plugin_habits_facts: no
           plugin_habits_charts: yes
-          plugin_habits_from: 1000
+          plugin_habits_from: 500
           plugin_habits_days: 30
           config_timezone: Europe/Warsaw
       - name: 🦑 Mastered technologies
